@@ -1,0 +1,23 @@
+class DataType {
+ public static void main(String args[]) {
+  byte x;
+  short s = 56;
+  int a = 270;
+  float c=1.46f;
+  double b = 128.128;
+  long l = 12121;
+  boolean res=true;
+  char d='a';
+  String ans="Rohit";
+  
+  System.out.println("int converted to byte");
+  x = (byte) a;
+  System.out.println("a and x " + a + " " + x);
+  System.out.println("short "+s);
+  System.out.println("float "+c);
+  System.out.println("double "+b);
+  System.out.println("long "+l);
+  System.out.println("boolean "+res);
+  System.out.println("char "+d);
+  System.out.println("String "+ans);
+ }
